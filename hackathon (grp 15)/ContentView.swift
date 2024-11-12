@@ -2,13 +2,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("tik tok toes")
-                .font(.system(size:36))
-                .fontWeight(.heavy)
+        NavigationStack {
+            ZStack {
+                Color.color
+                    .ignoresSafeArea()
+                VStack {
+                    Text("tik tok toes")
+                        .font(.system(size:36))
+                        .fontWeight(.heavy)
+                    NavigationLink {
+                        GameView()
+                    } label: {
+                        Text("start")
+                    }
+                    .buttonStyle(.bordered)
+                    .foregroundColor(.black)
+                }
         }
-        
-        .padding()
+        }
     }
 }
 
