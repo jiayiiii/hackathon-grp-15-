@@ -22,11 +22,7 @@ struct ContentView: View {
                             .fontWeight(.semibold)
                             .font(.system(size: 27))
                         VStack() {
-                            Text("• Each player has three pieces (X, O), and after placing them, they can move them around.")
-                                .font(.system(size: 20))
-                                .foregroundColor(.black)
-                                .padding()
-                            Text("• 50/50 chance to get a perk, such as an extra turn or a skip turn.")
+                            Text("• Each player has three pieces (X, O), and after placing them, they can move the pieces to an adjacent square.")
                                 .font(.system(size: 20))
                                 .foregroundColor(.black)
                                 .padding()
