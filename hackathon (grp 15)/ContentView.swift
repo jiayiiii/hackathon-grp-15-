@@ -1,19 +1,13 @@
-//
-//  ContentView.swift
-//  hackathon (grp 15)
-//
-//  Created by jia yi on 12/11/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("tic tac toes")
+            Text("tik tok toes")
+                .font(.system(size:36))
                 .fontWeight(.heavy)
-            
         }
+        
         .padding()
     }
 }
