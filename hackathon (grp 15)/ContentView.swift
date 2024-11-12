@@ -31,6 +31,7 @@ struct ContentView: View {
                             .disabled(board[row][col] != nil || winner != nil) // Disable button if cell is occupied or game is over
                         }
                     }
+                    
                 }
             }
             .padding()
