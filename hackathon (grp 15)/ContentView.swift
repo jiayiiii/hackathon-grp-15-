@@ -33,7 +33,7 @@ struct ContentView: View {
                         }
                         Spacer()
                         NavigationLink {
-                            GameView()
+                            RomanTicTacToeView()
                         } label: {
                             Text("Start")
                                 .padding()
